@@ -130,8 +130,6 @@ button_multiplicate = ttk.Button(text="X", command= lambda: multiplicate()).grid
 button_divide = ttk.Button(text="/", command= lambda: divide()).grid(row=2, column=4)
 button_power = ttk.Button(text="P", command= lambda: power()).grid(row=0, column=4)
 
-#button_one.place(height = 15, width = 15) #и так далее прописать + заменить .grid на .place(x = ..., y = ..., height = ..., width = ...)
-
 Label_s.grid(column=0, row=0, columnspan= 3)
 button_equals.grid(row=3, column=3, columnspan=2)
 root.mainloop()
